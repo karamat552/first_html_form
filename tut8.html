@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>This is my HTML forms Tutorial</h1>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label><br>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role</label><br>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <br>
+
+        <div>
+            Date <input type="date" name="myDAte">
+        </div>
+        <br>
+        <div>
+            Gender:Male <input type="radio" name="myGender">feMale <input type="radio" name="myGender"> Other <input
+                type="radio" name="myGender">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Are you eligible: <input type="checkbox" name="Eligibility">
+        </div>
+        <div>
+            <input type="submit" value="Submit now">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="reset now">
+        </div>
+        <br>
+        <div>
+            comments: <br> <textarea name="comments" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="car"> Car</label>
+            <select name="myCar" id="car">
+                <option value="ind" >  indica</option>
+                <option value="mrt" selected> maruti</option>
+            </select>
+        </div>
+    </form>
+</body>
+
+</html>
